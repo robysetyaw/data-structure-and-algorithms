@@ -10,9 +10,6 @@ func twoSumWithMap(nums []int, target int) []int {
 
 	for i, num := range nums {
 		hashNum[num] = i
-	}
-
-	for i, num := range nums {
 		secondNumber := target - nums[i]
 		value, isExist := hashNum[secondNumber]
 		if isExist && secondNumber > num && value != i {
