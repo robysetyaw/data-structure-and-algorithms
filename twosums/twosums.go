@@ -1,8 +1,9 @@
 package twosums
 
 func TwoSum(nums []int, target int) []int {
+
 	return twoSumWithMap(nums, target)
-	
+
 }
 
 func twoSumWithMap(nums []int, target int) []int {
