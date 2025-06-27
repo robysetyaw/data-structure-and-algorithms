@@ -1,3 +1,29 @@
+# Struktur Data dan Algoritma Golang
+
+Proyek ini berisi implementasi berbagai struktur data dan algoritma umum menggunakan Golang serta implementasi unit test
+
+## Menjalankan Unit Test
+
+Proyek ini menggunakan paket bawaan `testing` dari Go.
+
+Untuk menjalankan **semua unit test dalam proyek**, gunakan perintah berikut:
+
+> go test ./...
+
+## Menjalankan Test pada Paket Tertentu
+
+Sebagai contoh, untuk menjalankan test hanya pada paket stack:
+
+> go test ./stack
+
+Atau untuk menjalankan test pada paket twosums:
+
+> go test ./twosums
+
+Semua unit test mengikuti pola penulisan func(input, want, description) Pola ini memudahkan dalam mendefinisikan dan memahami setiap test case.
+
+# -----
+
 # Go Algorithms and Data Structures
 
 This project contains implementations of common data structures and algorithms in Go (Golang).
