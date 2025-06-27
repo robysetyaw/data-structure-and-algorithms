@@ -11,7 +11,7 @@ You can run all tests in the project with:
 
 This will recursively discover and execute all *_test.go files.
 
-##Running Tests in a Specific Package
+## Running Tests in a Specific Package
 
 For example, to run tests only in the stack package:
 
