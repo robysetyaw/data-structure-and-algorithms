@@ -40,8 +40,10 @@ func (s *IntStack) Push(i int) {
 	s.items = append(s.items, i)
 }
 
-func (s *IntStack) Pop() {
+func (s *IntStack) Pop() int {
+	res := s.items[len(s.items)-1]
 	s.items = s.items[:len(s.items)-1]
+	return res
 }
 
 func (s *IntStack) Top() int {
